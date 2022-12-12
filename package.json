@@ -4,7 +4,7 @@
   "description": "cryptocurrency, forex",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node index.js"
   },
   "keywords": [
     "cryptocurrency"
@@ -35,5 +35,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }
