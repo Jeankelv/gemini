@@ -42,8 +42,8 @@ app.use(function(req, res, next) {
     res.locals.user = req.user || null;
     res.locals.whatsapp = "";
     res.locals.adminWhatsApp = "";
-    res.locals.websiteName = "GEMINIINVESTMENTS";
-    res.locals.websiteMail = "247fx@gmail.com";
+    res.locals.websiteName = "GEMINI INVESTMENTS";
+    res.locals.websiteMail = "support@geminiinvestments.co.uk";
     next();
 });
 

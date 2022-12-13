@@ -5,8 +5,10 @@ let mongoURI;
 if (process.env.NODE_ENV === "production") {
     mongoURI = process.env.DB_URL;
 } else {
+    require('dotenv').config();
     mongoURI = process.env.Local_DB;
 }
+
 
 module.exports = async function() {
     mongoose.Promise = global.Promise;
