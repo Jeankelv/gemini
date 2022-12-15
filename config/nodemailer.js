@@ -1,12 +1,13 @@
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-  host: "mail.privateemail.com",
-  port: 465,
+  host: "smtp.gmail.com",
+  service: "gmail"
+  port: 587,
   secure: true,
   auth: {
-    user: "support@binarytradesview.com",
-    pass: "Bnp1234#",
+    user: "geminiinvestments95@gmail.com",
+    pass: "ycxpharhacmezxno",
   },
 });
 
@@ -25,7 +26,7 @@ module.exports = sendMail;
 
 // USAGE:
 // const mailOptions = {
-//     from: "Sender Name <sender@domain.tld>",
+//     from: "support@geminiinvestments.co.uk",
 //     to: "Recipient",
 //     subject: ``,
 //     text: ``,
